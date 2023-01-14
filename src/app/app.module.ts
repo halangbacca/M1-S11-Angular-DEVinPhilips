@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { CardNgContentComponent } from './components/card-ng-content/card-ng-content.component';
+import { ValidatorComponent } from './components/validator/validator.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { CardNgContentComponent } from './components/card-ng-content/card-ng-con
     HeaderComponent,
     CardsComponent,
     ModalComponent,
-    CardNgContentComponent
+    CardNgContentComponent,
+    ValidatorComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
