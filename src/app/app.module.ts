@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CaptalizePhilipsPipe } from './pipes/captalize-philips.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CaptalizePhilipsPipe
   ],
   imports: [
     BrowserModule,
