@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CaptalizePhilipsPipe } from './pipes/captalize-philips.pipe';
 import { HeaderComponent } from './components/header/header.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CaptalizePhilipsPipe,
     HeaderComponent,
-    CardsComponent
+    CardsComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

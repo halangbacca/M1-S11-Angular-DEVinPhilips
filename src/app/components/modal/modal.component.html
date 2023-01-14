@@ -1,0 +1,14 @@
+<div class="card">
+  <a (click)="showModal = !showModal">Abrir Modal</a>
+</div>
+
+<div *ngIf="showModal" class="modal">
+  <div class="modal__content">
+    <h1>Exemplo de Modal</h1>
+    <p>
+      Ao clicar no botão do modal, o valor booleano da variável showModal é
+      invertido, fechando-o.
+    </p>
+    <a (click)="showModal = !showModal" class="modal__close">&times;</a>
+  </div>
+</div>
