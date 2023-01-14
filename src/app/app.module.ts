@@ -7,6 +7,7 @@ import { CaptalizePhilipsPipe } from './pipes/captalize-philips.pipe';
 import { HeaderComponent } from './components/header/header.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { CardNgContentComponent } from './components/card-ng-content/card-ng-content.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ModalComponent } from './components/modal/modal.component';
     CaptalizePhilipsPipe,
     HeaderComponent,
     CardsComponent,
-    ModalComponent
+    ModalComponent,
+    CardNgContentComponent
   ],
   imports: [
     BrowserModule,
