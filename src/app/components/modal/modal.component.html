@@ -5,10 +5,7 @@
 <div *ngIf="showModal" class="modal">
   <div class="modal__content">
     <h1>Exemplo de Modal</h1>
-    <p>
-      Ao clicar no botão do modal, o valor booleano da variável showModal é
-      invertido, fechando-o.
-    </p>
+    <ng-content></ng-content>
     <a (click)="showModal = !showModal" class="modal__close">&times;</a>
   </div>
 </div>
