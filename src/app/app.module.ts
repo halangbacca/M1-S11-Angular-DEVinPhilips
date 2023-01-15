@@ -10,6 +10,7 @@ import { CardsComponent } from './components/cards/cards.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { CardNgContentComponent } from './components/card-ng-content/card-ng-content.component';
 import { ValidatorComponent } from './components/validator/validator.component';
+import { TasksComponent } from './components/tasks/tasks.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ValidatorComponent } from './components/validator/validator.component';
     CardsComponent,
     ModalComponent,
     CardNgContentComponent,
-    ValidatorComponent
+    ValidatorComponent,
+    TasksComponent
   ],
   imports: [
     BrowserModule,
